@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CCFS: About me</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/style2.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+
+    <body style="background-color: #222222;">
+      
+      <nav id="nav" class="navbar-fixed-top">
+        <div id="inner-nav" class="container">
+        <button onclick="toggleMenu()" id="menu" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <img id="menulogo" src="Immagini/Navbar/Menu2.svg" alt="menu">
+        </button>
+        <a href="index.html">
+          <img id="logo" src="Immagini/Navbar/Logo2.svg" alt="logo">
+        </a>
+        <div id="btn-lang">
+            <button onclick="toggleSearch()" id="search" data-bs-toggle="collapse" data-bs-target="#searchContent">
+              <img id="search-img-button" src="Immagini/Navbar/Search-img.svg" alt="search">
+            </button>
+            <img id="language" src="Immagini/Navbar/flag-gb-svgrepo-com.svg" alt="lingua ">
+        </div>
+        </div>
+        </nav>
+        <div class="collapse" id="navbarContent" data-bs-theme="dark">
+        <div id="hidden-nav" class="bg-dark p-3 container">
+          <a href="aboutme.html" style="text-decoration: none;">
+            <h5 class="text-body-emphasis h4">About me</h5>
+          </a>
+          <a href="myjobs.html" style="text-decoration: none;">
+            <h5 class="text-body-emphasis h4">My jobs</h5>
+          </a>
+          <a href="contactme.html" style="text-decoration: none;">
+            <h5 class="text-body-emphasis h4">Contact me</h5>
+          </a>
+          <button onclick="toggleSearch()" id="search" data-bs-toggle="collapse" data-bs-target="#searchContent" class="d-block d-md-none">
+            <img id="search-img-button" src="Immagini/Navbar/Search-img.svg" alt="search">
+          </button>
+        </div>
+        </div>
+        <div class="collapse" id="searchContent" data-bs-theme="dark">
+        <div class="container">
+          <input id="search-box" type="text" style="text-align:center" class="form-control" placeholder="Write here...">
+        </div>
+        </div>
+
+          <div>
+            <div id="col-box-aboutme" class="row align-items-center">
+              <div class="col-12 col-lg-6">
+                <div id="photo-box1">
+                  <img id="photo1" src="Immagini/About_me/aboutme_ph2.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div id="slogan-box1">
+                    <p id="aboutme1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum necessitatibus facere similique iusto a! Praesentium impedit officia asperiores et architecto sapiente doloribus ab nihil! Voluptate assumenda placeat fugiat voluptas consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reprehenderit autem suscipit eum eos eaque qui maiores explicabo officia tempora. Necessitatibus distinctio ex fugit sint, impedit est laboriosam in minus.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div id="col-box-aboutme" class="row align-items-center">
+              <div class="col-12 col-lg-6">
+                <div id="slogan-box2">
+                  <p id="aboutme2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis provident mollitia enim fugit veniam porro quas delectus praesentium beatae eum autem dolorum et quae, dolor hic ducimus vero non debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, earum, voluptates similique porro cupiditate illum et nobis facilis veniam molestias tempore laudantium eligendi dignissimos eos! Sequi molestiae tempora quibusdam nobis!</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div id="photo-box2">
+                  <img id="photo2" src="Immagini/About_me/aboutme_ph1.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <footer id="footer-box-aboutme">
+            <div id="doyoulike-box-aboutme">
+              <h1 id="do-you-like">Do you want see my jobs?</h1>
+              <a href="contactme.html">
+                <button id="contactme-button">Click here</button>
+              </a>
+              <div id="tornasu-aboutme">
+                <a href="#logo">
+                  <img id="freccia" src="Immagini/Home_Page/Torna-su-bottone/arrow_upward_FILL0_wght400_GRAD0_opsz48.svg" alt="tornasu">
+                </a>
+              </div>
+            </div>
+          </footer>
+
+          <footer id="social-box">
+            <img id="social-icons" src="Immagini/Home_Page/Social/Social-icons.svg" alt="">
+          </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+          var menulogo = document.getElementById("menulogo");
+          var isMenuOpen = false;
+
+          var searchImgButton = document.getElementById("search-img-button");
+          var isSearchOpen = false;
+
+          function toggleMenu() {
+            if (isMenuOpen === true) {
+              isMenuOpen = false;
+              menulogo.src = "Immagini/Navbar/Menu2.svg";
+            } else {
+              isMenuOpen = true;
+              menulogo.src = "Immagini/Navbar/menu-close.svg";
+            }
+          }
+
+          function toggleSearch() {
+            if (isSearchOpen === true) {
+              isSearchOpen = false;
+             searchImgButton.src = "Immagini/Navbar/Search-img.svg";
+            } else {
+              isSearchOpen = true;
+             searchImgButton.src = "Immagini/Navbar/Search-close.svg";
+            }
+          }
+        </script>
+    </body>
+</html>

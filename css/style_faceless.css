@@ -1,0 +1,885 @@
+/*NAVBAR*/
+
+#nav {
+    background-color: #222222;
+}
+ 
+#menu {
+    background-color: transparent;
+    border: none;
+    min-width: 154px;
+    text-align: left;
+}
+ 
+#menu:hover {
+    opacity: 60%;
+}
+ 
+#search:hover {
+    opacity: 60%;
+}
+ 
+#inner-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+ 
+#logo {
+    margin-bottom: 10px;
+    height: 60px;
+}
+  
+#menulogo {
+    width: 80px;
+    height: 26px;
+}
+ 
+#search-img-button {
+    width: 60px;
+    height: 26px;
+}
+ 
+#searchContent {
+    background-color: #222222;
+    padding: 10px;
+}
+ 
+#search-box {
+    background-color: #222222;
+    border-radius: 0px;
+    border: solid 0.10px white; 
+}
+ 
+input::placeholder {
+    font-family: Roboto Light;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#search {
+    font-family: Roboto Light; color: white;
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+} 
+
+.text-body-emphasis.h4 {
+   font-family: Roboto Light; color: white;
+   text-transform: uppercase;
+   font-size: 18px;
+}
+
+.text-body-emphasis.h4:hover {
+   opacity: 60%;
+}
+
+.bg-dark {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: none;
+}
+
+#navbarContent {
+   background-color: #222222;
+}
+
+#hidden-nav {
+   background-color: #222222 !important;
+}
+
+#hidden-nav #search-img-button {
+    width: 45px;
+    height: 16px;   
+    text-align: left; 
+}
+
+/*CAROSELLO*/
+
+.carousel-indicators {
+    text-align: center;
+}
+
+.btn-primary {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel-inner {
+    position: relative;
+}
+ 
+#explore-my-jobs {
+    position: absolute;
+    background-color: #222222;
+    opacity: 66%;
+    border-radius: 0px;
+    border: none;
+    font-family: Roboto Light; color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+#explore-my-jobs:hover {
+    opacity: 80%;
+} 
+ 
+#img1-carousel {
+    background-image: url(../Immagini/Home_Page/Carosello/3.jpg);
+    height: 580px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+#img2-carousel {
+    background-image: url(../Immagini/Home_Page/Carosello/look2_2.jpg);
+    height: 580px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+#img3-carousel {
+    background-image: url(../Immagini/Home_Page/Carosello/astrocyb_19.jpg);
+    height: 580px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+#img4-carousel {
+    background-image: url(../Immagini/Home_Page/Carosello/L003_002_1.jpg);
+    height: 580px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*SLOGAN*/
+
+#slogan-box {
+    background-color: #222222;
+    height: 510px;
+    width: 100%;
+    text-align: center;
+}
+ 
+#col-box {
+    background-color: #222222;
+}
+
+#colonna {
+    padding: 0px
+}
+ 
+#model {
+    width: 100%;
+}
+ 
+#slogan {
+    font-family: Roboto Light; color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+ 
+#aboutme-button {
+    background-color: #CCFF66;
+    border: none;
+    font-family: Mutalis; color: black;
+    text-transform: uppercase;
+    width: 197px;
+    height: 48px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+ 
+#aboutme-button:hover {
+    background-color: #9cc54b;
+}
+
+/*FOTO BRACCIO*/
+
+#img-braccio {
+    background-image: url(../Immagini/Home_Page/look3.jpg);
+    height: 580px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*FOOTER*/
+
+#footer-box, #footer-box-aboutme, #footer-box-contactme, #footer-box-jobdetails {
+    background-color: #222222;
+    width: 100%;
+    height: 367px;
+}
+ 
+#doyoulike-box, #doyoulike-box-aboutme, #doyoulike-box-myjobs, #doyoulike-box-contactme, #doyoulike-box-jobdetails {
+    font-family: Mutalis; color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+}
+ 
+#contactme-button {
+    background-color: #CCFF66;
+    border: none;
+    font-family: Mutalis; color: black;
+    text-transform: uppercase;
+    width: 197px;
+    height: 48px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+ 
+#contactme-button:hover {
+    background-color: #9cc54b;
+}
+ 
+#tornasu, #tornasu-aboutme, #tornasu-myjobs, #tornasu-contactme, #tornasu-jobdetails {
+    width: 48px;
+    height: 48px;
+    background-color: #CCFF66;
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+    border: none;
+}
+ 
+#tornasu:hover, #tornasu-aboutme:hover, #tornasu-myjobs:hover, #tornasu-contactme:hover, #tornasu-jobdetails:hover {
+    background-color: #9cc54b;
+}
+ 
+#freccia {
+    margin-top: 10px;
+}
+ 
+#social-box {
+    background-color: #CCFF66;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+/*+ABOUT ME PAGE*/
+
+#img-main-box {
+    background-color: #222222;
+    height: 100%;
+    width: 100%;
+}
+
+#slogan-box1, #slogan-box2 {
+    background-color: #222222;
+    height: 510px;
+    width: 100%;
+}
+
+#photo-box1, #photo-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#col-box-aboutme {
+    background-color: #222222;
+    padding-top: 100px;
+}
+ 
+#photo1, #photo2 {
+    width: 60%;
+}
+ 
+#aboutme1 {
+    font-family: Roboto Light; color: white;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 150px;
+    padding-right: 140px;
+    
+}
+ 
+#aboutme2 {
+    font-family: Roboto Light; color: white;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 140px;
+}
+
+#footer-box-aboutme {
+    background-color: #222222;
+    width: 100%;
+    height: 567px;
+    padding-top: 100px;
+}
+
+/*+MY JOBS PAGE*/
+
+#job-box {
+    background-color: #222222;
+    padding: 100%;
+}
+
+#job1 {
+    background-image: url(../Immagini/Lavori_dettaglio/Lavori/Lookbook_Paolo_Frezza/5.jpg);
+    height: 719px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 100px auto 0px 100px;
+    padding: 1px;
+}
+
+#LookBookPaoloFrezza {
+    max-width: 50%;
+    margin: 30%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+#job1:hover #LookBookPaoloFrezza {
+    opacity: 1;
+}
+
+#job2 {
+    background-image: url(../Immagini/Lavori_dettaglio/Lavori/SUBSTANTIA/3.jpg);
+    height: 719px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px 100px 0px auto;
+}
+
+#job3 {
+    background-image: url(../Immagini/Lavori_dettaglio/Lavori/Missione_Futura/astrocyb_19.jpg);
+    height: 719px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px auto 0px 100px;
+    
+}
+
+#job4 {
+    background-image: url(../Immagini/Lavori_dettaglio/Lavori/KLIPPE/look2_2.jpg);
+    height: 719px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px 100px 0px auto;
+   
+}
+
+#job5 {
+    background-image: url(../Immagini/Lavori_dettaglio/Lavori/Greta_Futura/L003_002_1.jpg);
+    height: 719px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px auto 0px 100px;    
+}
+
+
+#job6-7-box, #job8-9-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+#job6 {
+    background-image: url(../Immagini/Lavori_dettaglio/Lavori/Antiumanità/13.jpg);
+    height: 719px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px 0px 0px 100px;
+}
+
+#job7 {
+    background-image: url(../Immagini/Lavori_dettaglio/Lavori/Cross_studio_styling_0622/6.jpg);
+    height: 719px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    margin: 0px 100px 0px 0px;
+}
+
+#job8 {
+    background-image: url(../Immagini/Lavori_dettaglio/Lavori/Lookbook_Giada/Pants/DSC_7925.jpg);
+    height: 719px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 100px 0px 0px 100px;
+}
+
+#job9 {
+    background-image: url(../Immagini/Lavori_dettaglio/Lavori/SALLY_fashion_editorial_complete_series/Look/look_02_3.jpg);
+    height: 719px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 100px 100px 0px 0px;
+}
+
+#footer-box-myjobs {
+    background-color: #222222;
+    width: 100%;
+    height: 200px;
+}
+
+/*+CONTACT ME PAGE*/
+
+    #form-box {
+        background-color: #222222;
+    }
+
+    #form {
+        background-color:#CCFF66;
+        font-family: Roboto Light; color: #222222;
+        font-weight: 600;
+        max-width: 35%;
+        margin: 100px auto 0px auto;
+        padding: 70px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    .campi_form {
+        display: block;
+        padding: 5px;
+        border: none;
+        width: 100%;
+        margin-bottom: 20px;
+        font-family: inherit;
+        height: 35px;
+    }
+
+    .campi_form::placeholder {
+        text-transform: none;
+        text-align: left;
+    }
+
+    textarea.campi_form {
+        height: 300px;
+    }
+
+    #form label {
+        margin-bottom: 5px;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+
+    div button {
+        text-align: center;
+        font-family: Mutalis; color:#CCFF66;
+        background-color: #222222;
+        border: none;
+        cursor: pointer;
+        margin-top: 30px;
+        width: 150px;
+        height: 50px;           
+    }
+
+    #callme-button {
+        background-color: #CCFF66;
+        border: none;
+        font-family: Roboto Light; color: black;
+        text-transform: uppercase;
+        width: 197px;
+        height: 48px;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+ 
+    #contactme-button:hover {
+        background-color: #9cc54b;
+    }
+
+    #send-button {
+        text-align: center;
+    }
+
+/*+JOB DETAILS PAGE*/
+
+    #img-box1, #img-box2, #img-box3, #img-box4, #img-box5, #img-box6, #img-box7, #img-box8, #img-box9, #img-box10, #img-box11, #img-box12, #img-box13, #img-box14, #img-box15, #img-box16, #img-box17, #img-box18 {
+        background-color: #222222;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    #img1-job1 {
+        background-image: url(../Immagini/Lavori_dettaglio/Lavori/Cross_studio_styling_0622/1.jpg);
+        height: 598px;
+        width: 362px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: -199px;
+        cursor: pointer;
+    }
+
+    #ViewFullImage {
+        max-width: 100%;
+        margin: 10%;
+        opacity: 0;
+        transition: all 0.5s;
+        padding-top: 200px;
+    }
+    
+    #img1-job1:hover #ViewFullImage {
+        opacity: 1;
+    }
+
+    #img2-job1 {
+        background-image: url(../Immagini/Lavori_dettaglio/Lavori/Cross_studio_styling_0622/2.jpg);
+        height: 598px;
+        width: 362px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 3px;
+        margin-top: 199px;
+        cursor: pointer;
+    }
+
+    #ViewFullImage2 {
+        max-width: 100%;
+        margin: 10%;
+        opacity: 0;
+        transition: all 0.5s;
+        padding-top: 200px;
+    }
+    
+    #img2-job1:hover #ViewFullImage2 {
+        opacity: 1;
+    }
+
+    #img3-job1 {
+        background-image: url(../Immagini/Lavori_dettaglio/Lavori/Cross_studio_styling_0622/3.jpg);
+        height: 598px;
+        width: 362px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: -199px;
+        cursor: pointer;
+    }
+
+    #ViewFullImage3 {
+        max-width: 100%;
+        margin: 10%;
+        opacity: 0;
+        transition: all 0.5s;
+        padding-top: 200px;
+    }
+    
+    #img3-job1:hover #ViewFullImage3 {
+        opacity: 1;
+    }
+
+    #img4-job1 {
+        background-image: url(../Immagini/Lavori_dettaglio/Lavori/Cross_studio_styling_0622/4.jpg);
+        height: 598px;
+        width: 362px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 199px;
+        cursor: pointer;
+    }
+
+    #ViewFullImage4 {
+        max-width: 100%;
+        margin: 10%;
+        opacity: 0;
+        transition: all 0.5s;
+        padding-top: 200px;
+    }
+    
+    #img4-job1:hover #ViewFullImage4 {
+        opacity: 1;
+    }
+
+    #img5-job1 {
+        background-image: url(../Immagini/Lavori_dettaglio/Lavori/Cross_studio_styling_0622/5.jpg);
+        height: 598px;
+        width: 362px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: -199px;
+        cursor: pointer;
+    }
+
+    #ViewFullImage5 {
+        max-width: 100%;
+        margin: 10%;
+        opacity: 0;
+        transition: all 0.5s;
+        padding-top: 200px;
+    }
+    
+    #img5-job1:hover #ViewFullImage5 {
+        opacity: 1;
+    }
+
+    #img6-job1 {
+        background-image: url(../Immagini/Lavori_dettaglio/Lavori/Cross_studio_styling_0622/6.jpg);
+        height: 598px;
+        width: 362px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 199px;
+        cursor: pointer;
+    }
+
+    #ViewFullImage6 {
+        max-width: 100%;
+        margin: 10%;
+        opacity: 0;
+        transition: all 0.5s;
+        padding-top: 200px;
+    }
+    
+    #img6-job1:hover #ViewFullImage6 {
+        opacity: 1;
+    }
+
+    #img7-job1 {
+        background-image: url(../Immagini/Lavori_dettaglio/Lavori/Cross_studio_styling_0622/7.jpg);
+        height: 598px;
+        width: 362px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: -199px;
+        cursor: pointer;
+    }
+
+    #ViewFullImage7 {
+        max-width: 100%;
+        margin: 10%;
+        opacity: 0;
+        transition: all 0.5s;
+        padding-top: 200px;
+    }
+    
+    #img7-job1:hover #ViewFullImage7 {
+        opacity: 1;
+    }
+
+
+    #img8-job1 {
+        background-image: url(../Immagini/Lavori_dettaglio/Lavori/Cross_studio_styling_0622/8.jpg);
+        height: 598px;
+        width: 362px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 199px;
+        cursor: pointer;
+    }
+
+    #ViewFullImage8 {
+        max-width: 100%;
+        margin: 10%;
+        opacity: 0;
+        transition: all 0.5s;
+        padding-top: 200px;
+    }
+    
+    #img8-job1:hover #ViewFullImage8 {
+        opacity: 1;
+    }
+
+    #img9-job1 {
+        background-image: url(../Immagini/Lavori_dettaglio/Lavori/Cross_studio_styling_0622/9.jpg);
+        height: 598px;
+        width: 362px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+
+    #ViewFullImage9 {
+        max-width: 100%;
+        margin: 10%;
+        opacity: 0;
+        transition: all 0.5s;
+        padding-top: 200px;
+    }
+    
+    #img9-job1:hover #ViewFullImage9 {
+        opacity: 1;
+    }
+
+@font-face {
+    src: url(../Font/Roboto/Roboto-Light.ttf);
+    font-family: Roboto Light;
+}
+
+@font-face {
+    src: url(../Font/MutalisFashion_PERSONAL_USE_ONLY.otf);
+    font-family: Mutalis;
+}
+
+@media screen and (max-width: 992px) {
+
+/*NAVBAR*/
+
+    #logo {
+       max-width: 150px;
+       height: 27px;
+       margin-right: 94px;
+    }
+ 
+    #search {
+       display: none;
+       min-width: 95px;
+       text-align: left;
+       margin-top: -19px;
+       margin-left: -6px;
+    }
+
+    img#language {
+    height: 13px;
+    }
+
+    #hidden-nav {
+        margin-bottom: -17px;
+    }
+
+    #menu {
+        min-width: 95px;
+    }
+ 
+    #menulogo {
+       max-width: 40px;
+    }
+    
+    .bg-dark {
+    display: block;
+    }
+ 
+    .text-body-emphasis.h4 {
+    font-size: 13px;
+    }
+
+/*CAROSELLO, SLOGAN, FOTO BRACCIO*/
+
+    #img1-carousel {
+    height: 350px;
+    background-position: center;
+    }
+
+    #img2-carousel, #img3-carousel, #img4-carousel, #img5, #img-braccio {
+    height: 350px;
+    }
+
+    #explore-my-jobs {
+        text-align: center;
+    }
+
+    #slogan-box {
+        height: 400px;
+    }
+
+    #slogan {
+        padding-top: 100px;
+    }
+
+/*FOOTER*/
+
+    #tornasu, #tornasu-myjobs, #tornasu-contactme, #tornasu-jobdetails {
+        display: inline-block;
+        position: absolute;
+        right: 43%;
+        top: 115%;
+    }
+
+/*+ABOUT ME PAGE*/
+
+    #aboutme1, #aboutme2 {
+        padding: 50px;
+        text-align: center;
+    }
+
+    #photo2 {
+        margin-top: 50px;
+    }
+
+    #doyoulike-box-aboutme {
+        padding-top: 0px;
+    }
+
+    #footer-box-aboutme {
+        height: 400px;
+    }
+
+    #tornasu-aboutme {
+        display: inline-block;
+        position: absolute;
+        right: 43%;
+        top: 133%;
+    }
+
+/*+MY JOBS PAGE*/
+
+    #job1 #job2, #job3, #job4, #job5, #job6, #job7, #job8, #job9 {
+        margin: 0px auto;
+        height: 219px;
+    }
+   
+    #job1, #job2 {
+        height: 219px;
+    }
+   
+    #job6-7-box, #job8-9-box {
+        display: block;
+    }
+   
+    #doyoulike-box-myjobs {
+        padding-top: 50px;
+    }
+
+/*+CONTACT ME PAGE*/
+
+    #form {
+        max-width: 90%;
+    }
+
+/*+JOB DETAILS PAGE*/
+
+    #img-box1, #img-box2, #img-box3, #img-box4, #img-box5, #img-box6, #img-box7, #img-box8, #img-box9, #img-box10, #img-box11, #img-box12, #img-box13, #img-box14, #img-box15, #img-box16, #img-box17, #img-box18 {
+        display: block;
+        padding-top: 0px;
+    }
+
+    #img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9, #img10, #img11, #img12, #img13, #img14, #img15, #img16, #img17, #img18, #img19, #img20, #img21, #img21, #img22, #img23, #img24, #img25, #img26, #img27, #img28, #img29, #img30, #img31, #img32, #img33, #img34, #img35, #img36 {
+        height: 498px;
+        width: 262px;
+        margin: 50px auto;
+    } 
+}

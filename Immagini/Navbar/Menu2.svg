@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.27 16.9">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-family: Roboto-Regular, Roboto;
+        font-size: 15px;
+      }
+
+      .cls-3 {
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="MENU" class="cls-2">
+    <text class="cls-4" transform="translate(42.23 12.83)"><tspan x="0" y="0">MENU</tspan></text>
+  </g>
+  <line id="Linea_7" data-name="Linea 7" class="cls-1" y1="2.83" x2="36.47" y2="2.83"/>
+  <line id="Linea_8" data-name="Linea 8" class="cls-3" y1="11.83" x2="36.47" y2="11.83"/>
+</svg>
